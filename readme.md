@@ -18,7 +18,7 @@ var ui = require ('cockpit.js')({
     {
       name: 'myButton', // Every element should have a unique name
       type: 'button', // duh.
-      x: 20, y: 20, w: 60, h: 30, // All values in percentage of display size (the smaller dimension)
+      x: 20, y: 20, w: 60, h: 60, // All values in percentage of display size (the smaller dimension)
       icon: 'lightbulb-outline', // For a list of icon names see: https://design.google.com/icons/
       fontColor: '#000', // Color of the icon
       text: 'Clicked 0 times', // Text to display under the icon (blank for none)
