@@ -1,0 +1,24 @@
+{
+  "name": "cockpit.js",
+  "version": "0.0.1",
+  "description": "Easy Web UI for Node",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mdi": "^1.2.65",
+    "socket.io": "^1.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patcullen/cockpit.js.git"
+  },
+  "keywords": [
+    "UI",
+    "node"
+  ],
+  "author": {
+    "name": "Pat Cullen",
+    "url": "http://twitter.com/patcullen"
+  },
+  "license": "MIT",
+  "readme": "ERROR: No README data found!"
+}

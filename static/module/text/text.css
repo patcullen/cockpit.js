@@ -1,0 +1,32 @@
+.text {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	-moz-border-radius: 1.5vmin;
+	-webkit-border-radius: 1.5vmin;
+	border-radius: 1.5vmin;
+
+	border: none;
+	background-color: transparent;
+	overflow: hidden;
+
+	background-color: #ddd;
+  padding: 0 0.15em 0 0.15em;
+}
+.text:focus {
+	outline: 0;
+}
+
+.text.color {
+	box-shadow:inset 1px 1px 1px 0px rgba(255,255,255,0.5);
+	background-color:#bbb;
+	border:1px solid #ccc;
+	color:#777777;
+}

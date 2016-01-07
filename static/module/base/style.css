@@ -1,0 +1,44 @@
+html { height: 100%; }
+body,ul,li,div { list-style-type: none; margin: 0px; padding: 0px; }
+body {
+	font-family: Georgia;
+	font-size: 11px;
+	height: 100%;
+	-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+body::-webkit-scrollbar { display: none; }
+#body {
+	position: absolute;
+	width: 100vmin;
+	height: 100vmin;
+}
+body:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	content: '';
+	mix-blend-mode: multiply;
+}
+
+body.billiard        { background: radial-gradient(#393d40, #272b2e); }
+body.billiard:before { background: url(http://i.stack.imgur.com/PEnJm.png); }
+
+body.stone        { background: radial-gradient(#444854, #34373e); }
+body.stone:before { background: url(http://i.stack.imgur.com/PEnJm.png); }
+
+body.sea         { background: linear-gradient(#008baa, #005164); }
+body.sea:before  { background: url(http://i.stack.imgur.com/PEnJm.png); }
+
+body.simple        { background: #333; }
+body.simple:before { background: url(http://i.stack.imgur.com/PEnJm.png); }
+
+body.bright        { background: linear-gradient(#f8f8f8, #d9d9d9); }
+body.bright:before { background: none; }
+
+body.setting        { background: linear-gradient(#d5d5d5, #ffffff); }
+body.setting:before { background: none; }
+
+body.grid        { background: radial-gradient(circle, #3a3a3a, rgba(58, 58, 58, 0) 1px), radial-gradient(circle, #3a3a3a, rgba(58, 58, 58, 0) 1px) #4a4a4a; background-size: 9px 3px, 3px 9px; }
+body.grid:before { background: none; }

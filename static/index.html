@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta content='True' name='HandheldFriendly' />
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link rel="stylesheet" href="module/base/style.css" />
+	<link rel="stylesheet" href="mdi/css/materialdesignicons.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+<body class="{{theme}}">
+	<div id="body"></div>
+</body>
+
+<script type="text/javascript" src="module/base/require.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+<script>
+  requirejs.config({
+    baseUrl: 'module/base',
+    paths: {
+    }
+  });
+  require(['jquery', 'domReady!'], function() {
+    cockpit.loadSchema({{schema}});
+  });
+</script>
+</html>
