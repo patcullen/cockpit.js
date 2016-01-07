@@ -35,6 +35,8 @@ var ui = require ('cockpit.js')({
   ]
 });
 ```
+The above example will appear / operate something like this.
+![Example image.](https://raw.githubusercontent.com/patcullen/cockpit.js/master/screenshots/BasicExample.png "The client and serverside showing the result of three button clicks")
 
 ### Example with a node-static web server
 
@@ -79,10 +81,10 @@ var ui = require ('cockpit.js')({
 
 In the example above, a subfolder with two files (index.html and 503.html) was setup. When running the example the following two UI's were available.
 
-| The Public Site (port 8080) | The Private Admin UI (Port 3000) |
+| The Private Admin UI (Port 3000) | The Public Site (port 8080) |
 | --- | --- |
-| img1 | img2 |
-| img1 | img2 |
+| ![Image of Admin UI showing available site](https://raw.githubusercontent.com/patcullen/cockpit.js/master/screenshots/UI_Online.png "Default state of the admin UI") | ![Image of available site](https://raw.githubusercontent.com/patcullen/cockpit.js/master/screenshots/Homepage.png "Site is ready and available") |
+| ![Image of Admin UI after offline is clicked](https://raw.githubusercontent.com/patcullen/cockpit.js/master/screenshots/UI_Offline.png "The offline state displayed on admin UI") | ![Image of unavailable site](https://raw.githubusercontent.com/patcullen/cockpit.js/master/screenshots/503.png "Site will appear under maintenance") |
 
 ## License
 
