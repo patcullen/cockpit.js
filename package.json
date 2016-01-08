@@ -1,6 +1,6 @@
 {
   "name": "cockpit.js",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Easy Web UI for Node",
   "dependencies": {
     "express": "^4.13.3",
@@ -20,5 +20,8 @@
     "url": "http://twitter.com/patcullen"
   },
   "license": "MIT",
-  "readme": "ERROR: No README data found!"
+  "readme": "readme.md",
+  "readmeFilename": "readme.md",
+  "main": "./index.js",
+  "_id": "cockpit.js@0.0.4"
 }
